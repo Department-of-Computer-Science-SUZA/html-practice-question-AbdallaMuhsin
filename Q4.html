@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <fieldset>
+    <legend>Academic information</legend>
+  Degree
+    <select>
+      <option>Master of Business Administration </option>
+      <option> master 1</option>
+      <option>master2</option>
+      <option>master3</option>
+      <option >Other</option>
+    </select>
+  <br>
+  Student ID <input type="text" required /><br>
+  Class attended 
+      <ul style="list-style: none; overflow-y: scroll;">
+        <li>Geography</li>
+        <li>physics</li>
+        <li>Mathematics</li>
+        <li>English</li>
+        <li>Chemistry</li>
+      </ul>
+  </fieldset>
+      <fieldset>
+        <legend>Personal Details</legend>
+        First Name: <input id="First Name" name="First Name" type="text" required /><br>
+        <label for="last-name">last-name:  <input id="last-name" name="last-name" type="text"required /><br>
+        <label>Gender</label>
+        <input id="Male" type="radio" name="Male" class="inline" checked /> Male
+        <input id="Female" type="radio" name="Female" class="inline" /> Female<br>
+        Email: <input id="email" name="email" type="email" required />
+        </fieldset>
+      <fieldset>
+          <textarea rows="3" placeholder= "TERMS AND CONDITION..."></textarea>
+        </label><br>
+      <input type="submit" value="send form" />
+      <input type="reset" value="Clear Form" />
+
+    </form>
+  </body>
+</html>
